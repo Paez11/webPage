@@ -12,6 +12,7 @@ import { DownloadComponent } from './components/download/download.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { AboutComponent } from './pages/about/about.component';
 import { Error404Component } from './pages/error404/error404.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -24,7 +25,8 @@ export function createTranslateLoader(http: HttpClient) {
     DownloadComponent,
     BlogComponent,
     AboutComponent,
-    Error404Component
+    Error404Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

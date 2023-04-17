@@ -1,0 +1,45 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.heading{
+    margin-bottom: 10px;
+}
+.header-container{
+    margin: 30px 0;
+}
+.tittle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+    font-size: 5vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.16;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.btn-container{
+    margin-top: 40px;
+}
+
+.download-button{
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #308ef5 0, #000da8);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #cdfafa;
+}
+
+.divisor{
+    transform: scale(.65);
+    transform-origin: center bottom;
+}

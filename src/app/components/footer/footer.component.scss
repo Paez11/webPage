@@ -1,3 +1,32 @@
 .container{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subNavbar{
+    margin-top: 10px;
+    font-size: revert;
+    font-style: normal;
+    color: white;
+    text-align: right;
+    white-space: pre-wrap;
+}
+
+a{
+    color: white;
+}
+
+svg{
+    margin-inline: 4%;
+    background-color: white;
+    border-radius: 100%;
+    padding: 2%;
 }

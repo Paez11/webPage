@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { AboutComponent } from './pages/about/about.component';
 import { Error404Component } from './pages/error404/error404.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { DownloadComponent } from './pages/download/download.component';
 
 export function createTranslateLoader(http: HttpClient) {
@@ -24,7 +25,8 @@ export function createTranslateLoader(http: HttpClient) {
     NavbarComponent,
     BlogComponent,
     AboutComponent,
-    Error404Component
+    Error404Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

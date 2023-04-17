@@ -1,6 +1,8 @@
 {
     "lang" : "Language",
     "blog" : "Blog",
-    "Download" : "Download",
-    "about" : "About"
+    "download" : "Download",
+    "about" : "About",
+    "downloadButton" : "Download for Windows",
+    "downloadTittle" : "Descargar Quarrel of Civilizations"
 }

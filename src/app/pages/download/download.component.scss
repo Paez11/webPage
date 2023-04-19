@@ -43,3 +43,13 @@
     transform: scale(.65);
     transform-origin: center bottom;
 }
+
+.link{
+    margin-block: 20px;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+.link:active{
+    color: #6610f2;
+}

@@ -18,27 +18,27 @@
 }
 
 .parrafo{
-    font: message-box;
+    text-align: center;
+    font-size: 15px;
+    font-family: math;
 }
 
 .c1{
     display: flex;
     flex-direction: column;
 }
+
 .container1{
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.container2{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .subtitulo{
@@ -51,12 +51,16 @@
     margin-inline: 5%;
 }
 
+.profilePicture{
+    width:180px; 
+    height:180px;
+    border-radius: 60%;
+    margin-bottom: 10px;
+}
+
 
 
 @media only screen and (max-width: 760px) {
-    .parrafo{
-        margin-left: 8%;
-    }
     .description{
         font-size: x-large;
     }

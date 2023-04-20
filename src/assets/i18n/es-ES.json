@@ -8,9 +8,11 @@
     "downloadTittle" : "Descargar Quarrel of Civilizations",
     "downloadMac" : "Descargar para Mac",
 
-    "PTIT": "Descripcion del proyecto",
-    "PDES": "Esto es una página web realizada con el framework angular.El objetivo de esta pagina web es exponer mi proyecto final de modulo. También puedes descargarlo y probarlo!!!",
-    "PAB": "Página web realizada por",
-    "PA": "Victor Paez Anguita <br> estudiante de 2ºCFGS DAM",
+    "footer1" : "Power By:",
+
+    "PTIT": "Descripción del proyecto",
+    "PDES": "Esto es una página web realizada con el framework angular. El objetivo de esta pagina web es exponer mi proyecto final de modulo. También puedes descargarlo y probarlo!!!",
+    "PAB": "Desarrollador",
+    "PA": "estudiante de 2ºCFGS DAM",
     "GITHUB": "Mi github"
 }

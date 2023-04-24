@@ -14,5 +14,9 @@
     "PDES": "Esto es una página web realizada con el framework angular. El objetivo de esta pagina web es exponer mi proyecto final de modulo. También puedes descargarlo y probarlo!!!",
     "PAB": "Desarrollador",
     "PA": "estudiante de 2ºCFGS DAM",
-    "GITHUB": "Mi github"
+    "GITHUB": "Mi github",
+    "mission": "v11 games es un projecto para crear un mundo increible en unity",
+
+    "section1-title": "Lorem Ipsum",
+    "section1": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
 }

@@ -33,13 +33,23 @@
     padding: 10px;
     margin: 4px;
     cursor: pointer;
-    background: linear-gradient(180deg, #308ef5 0, #000da8);
+    /*background: linear-gradient(180deg, #308ef5 0, #000da8);*/
     font-size: 1.5rem;
     font-weight: 700;
-    color: #cdfafa;
+    color: white;
 }
 
 .divisor{
     transform: scale(.65);
     transform-origin: center bottom;
+}
+
+.link{
+    margin-block: 20px;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+.link:active{
+    color: #6610f2;
 }

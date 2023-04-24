@@ -3,6 +3,20 @@
     "blog" : "Blog",
     "download" : "Download",
     "about" : "About",
+    
     "downloadButton" : "Download for Windows",
-    "downloadTittle" : "Descargar Quarrel of Civilizations"
+    "downloadTittle" : "Download Quarrel of Civilizations",
+    "downloadMac" : "Download for Mac",
+
+    "footer1" : "Power By:",
+
+    "PTIT": "Proyect description",
+    "PDES": "This is a web page made with the angular framework. The objective of this web page is to show my final project of my module. Also you can download and try it!!!",
+    "PAB": "Developer",
+    "PA": "2ºCFGS DAM student",
+    "GITHUB": "My github",
+    "mission": "v11 games is a project to create an amazing world in unity",
+
+    "section1-title": "Lorem Ipsum",
+    "section1": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
 }

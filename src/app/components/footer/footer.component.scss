@@ -5,32 +5,51 @@
     align-items: flex-start;
 }
 
+.f{
+    background-color: rgba(234, 234, 234, 0.6) !important;
+    box-shadow: 0px 1px 0px 1.2px rgba(0, 0, 0, 0.2), 0px 0px 10px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
 .icons{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+.power{
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+}
+
 .subNavbar{
     margin-top: 10px;
     font-size: revert;
     font-style: normal;
-    color: white;
+    color: black;
     text-align: right;
     white-space: pre-wrap;
 }
 
 a{
-    color: white;
+    color: black;
+    font-weight: lighter;
 }
 
 svg{
     margin-inline: 4%;
-    background-color: white;
+    background-color: rgba(209, 209, 209, 0.85);
     border-radius: 100%;
     padding: 2%;
 }
 
 img{
     margin-inline: 1em;
+}
+
+.copyright{
+    background-color: rgba(189, 189, 189, 0.2);
+    color: black;
+    font-size: small;
+    font-weight: 100;
 }

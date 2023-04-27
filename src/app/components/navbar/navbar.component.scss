@@ -1,3 +1,20 @@
+.navbarContainer{
+    background-color: rgb(210 210 210 / 44%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 30px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.navbar {
+    position: relative;
+    transition: top 0.3s;
+}
+  
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {

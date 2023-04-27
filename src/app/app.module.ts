@@ -14,6 +14,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { Error404Component } from './pages/error404/error404.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DownloadComponent } from './pages/download/download.component';
+import { FixedNavbarDirective } from './directives/fixed-navbar.directive';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -27,7 +28,8 @@ export function createTranslateLoader(http: HttpClient) {
     BlogComponent,
     AboutComponent,
     Error404Component,
-    FooterComponent
+    FooterComponent,
+    FixedNavbarDirective
   ],
   imports: [
     BrowserModule,

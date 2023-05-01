@@ -13,8 +13,25 @@
     left: 0;
     right: 0;
     z-index: 999;
+    background-color: rgba(210, 210, 210, 0.707);
+    a{
+        color: black;
+        font-weight: 400;
+    }
 }
 
+.changeTheme{
+    width: fit-content;
+    height: 28px;
+    align-self: center;
+    padding: 0%;
+    margin-inline: 6px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px; 
+}
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
@@ -22,5 +39,6 @@
         flex-basis: auto;
         flex-direction: row;
         justify-content: flex-end;
+        align-items: center;
     }
 }

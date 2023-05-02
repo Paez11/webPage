@@ -36,11 +36,23 @@ $dark-theme: mat.define-dark-theme((
   )
 ));
 
+.logo-container{
+  background-image: url('./assets/icons/logo-color.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
 .dark-theme{
   @include mat.all-component-themes($dark-theme);
 
   background:#0D1117;
   color: rgb(208, 208, 208);
+
+  .logo-container{
+    background-image: url('./assets/icons/logo-blanco.png') !important;
+  }
 
   nav{
     background-color: #161B22 !important;
@@ -52,6 +64,9 @@ $dark-theme: mat.define-dark-theme((
       }
       .nav-link:active{
         color:whitesmoke;
+      }
+      .nav-link:hover{
+        font-weight: 500;
       }
     .nav-item {
       background-color:  #161B22 !important;
@@ -70,6 +85,16 @@ $dark-theme: mat.define-dark-theme((
   }
   .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: white;
+  }
+
+  .navbar-toggler{
+    color: whitesmoke;
+    background-color: #2d343d;
+    border: #323942 solid;
+  }
+
+  .span-color{
+    color: whitesmoke;
   }
 
   .f-dark {
@@ -121,4 +146,7 @@ body {
     padding: 0;
 }
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+  margin: 0; 
+  /*background-image: url('assets/img/background.jpg');*/
+}

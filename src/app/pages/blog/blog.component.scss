@@ -1,14 +1,13 @@
 .content{
     display: flex;
     flex-direction: column;
-    padding-left: 6vw;
-    padding-right: 6vw;
-    margin: 0 auto;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    margin: auto;
 }
-
 .blog{
-    margin-top: 3.5em;
-    margin-bottom: 4em;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
 }
 
 .text-section{
@@ -19,25 +18,87 @@
 
 .section1{
     display: flex;
-    flex-direction: row;
     margin: auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section2{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     margin: auto;
 }
 
 .blog-title{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin: 1rem 0;
 }
 
 .text{
     text-align: justify;
-    font-size: 15px;
+    font-size: large;
     font: math;
-    margin-inline: 2em;
+    margin-inline: 1.5em;
+    line-height: 1.8em;
+}
+
+.video{
+    width: fit-content;
+}
+
+@media only screen and (min-width: 768px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin: 0 auto;
+    }
+
+    .blog{
+        margin-top: 3.5em;
+        margin-bottom: 4em;
+    }
+
+    .text-section{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto;
+    }
+
+    .video{
+        width:360px;
+        height:215px;
+    }
+    
+}
+
+@media only screen and (min-width: 1008px){
+
+    .blog-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1rem 0;
+    }
+
+    .text{
+        text-align: justify;
+        font-size: 15px;
+        font: math;
+        margin-inline: 2em;
+        line-height: 1.6em;
+    }
 }

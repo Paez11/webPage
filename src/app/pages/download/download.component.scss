@@ -1,9 +1,9 @@
 .parent{
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
     text-align: center;
+    margin-inline: 20px;
 }
 
 .heading{
@@ -15,33 +15,54 @@
 .tittle{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #000000;
-    font-size: 5vw;
+    font-size: 15vw;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 0.5px;
     line-height: 1.16;
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
+    text-align: center;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
 }
 
 .btn-container{
     margin-top: 40px;
 }
 
+
 .download-button{
     padding: 10px;
     margin: 4px;
     cursor: pointer;
-    /*background: linear-gradient(180deg, #308ef5 0, #000da8);*/
+    background: #E34322;
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.divisor{
-    transform: scale(.65);
-    transform-origin: center bottom;
+.download-button:hover{
+    background-color: #991900d6;
+}
+
+.download-button:active{
+    background-color: #fb4a26;
+}
+
+
+.downloads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .link{
@@ -52,4 +73,70 @@
 
 .link:active{
     color: #6610f2;
+}
+
+@media only screen and (max-width: 768px){
+    .divisor{
+        width: 300px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .center{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) 
+    }
+
+    .download-button{
+        padding: 10px;
+        margin: 4px;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .divisor{
+        transform: scale(0.54);
+        transform-origin: center bottom;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1008px){
+    .tittle{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #000000;
+        font-size: 4vw;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 1.16;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .divisor{
+        transform: scale(.64);
+        transform-origin: center bottom;
+        margin-bottom: 20px;
+    }
+
+    .download-button{
+        padding: 12px;
+        margin: 10px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
 }

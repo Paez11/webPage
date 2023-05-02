@@ -1,12 +1,14 @@
 <div class="parent" [@fadeInOut]>
-    <header class="heading">
-        <div class="header-container">
-            <h1 class="tittle">{{"downloadTittle" | translate}}</h1>
+    <div class="center">
+        <header class="heading">
+            <div class="header-container">
+                <h1 class="tittle">{{"downloadTittle" | translate}}</h1>
+            </div>
+        </header>
+        <img src=".././assets/img/divisor.png" alt="divisor" class="divisor">
+        <div class="downloads">
+            <button class="btn download-button" type="button" (click)="downloadFile()">{{"downloadButton" | translate}}</button>
+            <a href="**" class="link">{{"downloadMac" | translate}}</a>
         </div>
-    </header>
-    <img src=".././assets/img/divisor.png" alt="divisor" class="divisor">
-    <div class="d-grid gap-2 col-6 mx-auto btn-container">
-        <button class="btn btn-primary download-button" type="button" (click)="downloadFile()">{{"downloadButton" | translate}}</button>
     </div>
-    <a href="**" class="link">{{"downloadMac" | translate}}</a>
 </div>

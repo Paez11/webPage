@@ -13,7 +13,7 @@
 .icons{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .power{
@@ -27,7 +27,7 @@
     font-size: revert;
     font-style: normal;
     color: black;
-    text-align: right;
+    text-align: left;
     white-space: pre-wrap;
 }
 
@@ -37,14 +37,16 @@ a{
 }
 
 svg{
-    margin-inline: 4%;
+    margin-inline: 2%;
     background-color: rgba(209, 209, 209, 0.85);
     border-radius: 100%;
-    padding: 2%;
+    padding: 3%;
+    width: 32px;
+    height: 32px;
 }
 
 img{
-    margin-inline: 1em;
+    margin: 0.5em;
 }
 
 .copyright{
@@ -52,4 +54,31 @@ img{
     color: black;
     font-size: small;
     font-weight: 100;
+}
+
+@media only screen and (min-width: 768px){
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    img{
+        margin: 0;
+        margin-inline: 1em;
+    }
+    svg{
+        margin-inline: 4%;
+        background-color: rgba(209, 209, 209, 0.85);
+        border-radius: 100%;
+        padding: 2%;
+        width: 23px;
+        height: 23px;
+    }
+    .subNavbar{
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 1008px){
+
 }

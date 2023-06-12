@@ -5,18 +5,36 @@
     "about" : "sobre mi",
 
     "downloadButton" : "Descargar para Windows",
-    "downloadTittle" : "Descargar Quarrel of Civilizations",
+    "downloadTittle" : "Descargar Empire2D",
     "downloadMac" : "Descargar para Mac",
 
     "footer1" : "Power By:",
 
     "PTIT": "Descripción del proyecto",
-    "PDES": "Esto es una página web realizada con el framework angular. El objetivo de esta pagina web es exponer mi proyecto final de modulo. También puedes descargarlo y probarlo!!!",
+    "PDES": "Empire2D es un proyecto realizado en Unity con el objetivo de crear un juego de estrategia en tiempo real (RTS) con una dinámica basada en el famoso Age of Empires, pero en un cautivador formato en 2D y con partidas más rápidas.",
+    "PDES2": "El juego alberga desde el clasico sitema de moviemiento, recogida de recursos y construcción, hasta un sistema de investigación de tecnologías para mejorar tu imperio y estrategias y formaciones asignadas a las unidades para un combate más estrategico y entretenido.",
     "PAB": "Desarrollador",
     "PA": "estudiante de 2ºCFGS DAM",
     "GITHUB": "Mi github",
-    "mission": "v11 games es un projecto para crear un mundo increible en unity",
+    "mission": "V11 games es un projecto para crear mundos increibles en unity",
 
-    "section1-title": "Lorem Ipsum",
-    "section1": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+    "section1-title": "Introducción",
+    "section1": "La idea del proyecto era pronfundizar más y aprender mejor como funciona un motor gráfico como este caso a sido Unity. Para ello decidí convertir el famoso Age of Empire a un formato 2D y a partidas más rápidas, con una duración promedio de unos 15 minutos. En esta adaptación, busque capturar la esencia del juego original, ofreciendo profundidad estratégica y una jugabilidad cautivadora en un tiempo más reducido. Los jugadores experimentarán la emoción de construir sus civilizaciones, recolectar recursos y comandar ejércitos, todo ello mientras participan en intensas batallas y forjan alianzas estratégicas. Al condensar la jugabilidad, creamos una experiencia inmersiva que permite tomar decisiones rápidas y progresar de manera ágil, convirtiendo cada partida en una experiencia emocionante y dinámica.",
+    "section2-title": "Herramientas",
+    "section2": "Para el desarrollo de este proyecto se ha utilizado :",
+    "section2-2": "La utilización de estas herramientas se debe en gran parte pues son las que he aprendido durante mi formación y me parecen mejores y más comodas para llevar acabo el propisito del proyecto. Para la página web en la que se esta leyendo esto, se ha utilizado Angular como frameWork apoyado con nodeJS para la administración e instalación de paquetes. Bootstrap como apoya para los estilos de la página y FireBase para su despliegue en la nube.",
+    "section2-3": "Por otra parte para el desarrollo del videojuego se ha empleado Unity como motor gráfico y Photoshop para la creación de sprites. De mencionar que todos los sonidos provienen de la Unity assets Store junto con algunas animaciones. La música es la original de Age of Empire.",
+    "section3-title": "Desarrollo de la página web",
+    "section3": "Al trabajar con herramientas con las que he tenido bastante experiencia previa, no ha resultado un gran reto la creación de la página. Quizás la implementación de animaciones de angular como el seguimiento del navbar o la aparición de algunos elementos. Tampoco el sistema de descarga de archivos. Este se ha acabado realizando con una libreria interna de angular que funciona como un Pipe(tuberia). Por lo demás se ha utilizado las misma librerias de siempre como ngx-translate para las traducciones, firebase o angular material para el cambio de tema.",
+    "section3-2": "En conjunto, las tecnologías usadas han sido clave en la creación de una página web moderna, escalable y con una experiencia de usuario y desarrollo fluida.",
+    "section4-title": "Desarrollo en Unity",
+    "section4": "Por el desarrollo en el motor gráfico ha sido un verdadero caos. No solo porque ha sido una herramienta nueva si no por todas las cosas que hay que tener en cuenta a la hora de desarrollar un videojuego. También por lo increiblemente complejo que puede llegar a ser el manipular físicas dentro de este. Cosas como poner reglas a las colisiones de objetos o mapear un navegador para estos puede resultar un desastre si no se controla bien. Por otra parte escoger un diseño de estructura para el proyecto y aprenderlo tambien a costado tiempo.",
+    "sectin4-2": "Aun con todo aprender una herramienta como a sido Unity a sido bastante enriquecedor para el desarrollo profesional.",
+    "section5-title": "Desarrollo en Photoshop",
+    "section5": "En cuanto a Photoshop al ser una herramienta que llevo utilizando un par de años no ha resultado una dificultad notable, quizas en cuanto a tener encuenta las dimensiones del proyecto a la hora de hacer los sprites o cuantos se deben hacer para tener una animación fluida. Más allá de eso el tiempo que consume en desarrollar cada sprite por simple que sea.",
+    "section6-title": "Despliegue en la nube",
+    "section6": "Para el despliegue en la nube de la página web, se ha utilizado el hosting de firebase el cual ha permitido de manera fácil y rápida el despliegue sin coste alguno. En un principio se intento con amazon web service, pero debido a la cantidad de problemas que estaba dando la máquina virtual se opto por firebase.",
+    "section7-title": "Instalador",
+    "section7": "Para crear el instalador descargable a través de la página he usado Inno Setup. Este software es un instalador de .exe para Windows muy potente el cual mediante un ayudante sin necesidad de aprender el lenguaje con el que se usa, uno puede crear un instaldor del programa que desee.",
+    "section8-title": "Video explicativo"
 }

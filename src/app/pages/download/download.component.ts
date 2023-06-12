@@ -26,13 +26,13 @@ export class DownloadComponent {
   }
 
   downloadFile() {
-    const fileUrl = 'assets/img/profile.jpg';
+    const fileUrl = 'assets/installer/Empire2D_Setup.exe';
     fetch(fileUrl)
     .then(response => response.blob())
     .then(blob => {
       const downloadLink = document.createElement('a');
       downloadLink.href = window.URL.createObjectURL(blob);
-      downloadLink.download = 'hola.jpg';
+      downloadLink.download = 'Empire2D_Setup.exe';
       downloadLink.click();
 
       // Update download count in Firebase

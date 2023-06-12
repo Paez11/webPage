@@ -43,7 +43,6 @@ $dark-theme: mat.define-dark-theme((
   height: 100%;
 }
 
-
 .dark-theme{
   @include mat.all-component-themes($dark-theme);
 
@@ -120,6 +119,10 @@ $dark-theme: mat.define-dark-theme((
     background-color: rgb(255 255 255 / 92%) !important;
   }
   .tittle{
+    color: whitesmoke !important;
+  }
+  .list-group-item {
+    background-color: #0D1117 !important;
     color: whitesmoke !important;
   }
 }

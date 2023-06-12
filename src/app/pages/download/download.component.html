@@ -8,7 +8,7 @@
         <img src=".././assets/img/divisor.png" alt="divisor" class="divisor">
         <div class="downloads">
             <button class="btn download-button" type="button" (click)="downloadFile()">{{"downloadButton" | translate}}</button>
-            <a href="**" class="link">{{"downloadMac" | translate}}</a>
+            <a (click)="downloadFile()" class="link">{{"downloadMac" | translate}}</a>
         </div>
     </div>
 </div>
